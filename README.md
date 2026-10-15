@@ -1,8 +1,6 @@
 # Terraform-Azure-Infrastructure
 
 
-# terraform-azure-infrastructure
-
 Simple Terraform configuration that provisions a minimal Azure environment:
 a resource group, virtual network + subnet, network security group (with an SSH rule),
 public IP, network interface, and a single Ubuntu Linux VM. The AzureRM provider is pinned to v3.0.0.
