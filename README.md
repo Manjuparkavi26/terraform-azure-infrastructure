@@ -72,3 +72,34 @@ public IP, network interface, and a single Ubuntu Linux VM. The AzureRM provider
 - Add `outputs.tf` with useful outputs (public IP, VM id).
 - Configure a remote `backend.tf` (Azure Storage or Terraform Cloud).
 - Consider using modules to split infra (networking vs compute).
+
+
+## Screenshots
+
+## Resource group
+
+<img width="1534" height="722" alt="image" src="https://github.com/user-attachments/assets/1c475353-236e-4704-a0bc-8255dd8fad66" />
+
+<img width="1518" height="724" alt="image" src="https://github.com/user-attachments/assets/60cca14f-a726-44f0-be67-4cd3c2b09fcf" />
+
+
+## Storage Account | Blob Storage
+
+<img width="1533" height="724" alt="image" src="https://github.com/user-attachments/assets/33e3927d-a408-4764-8155-b6a782dd1441" />
+
+
+## Outputs
+
+The deployment may expose useful values such as:
+
+Resource group name
+
+VM name
+
+Public IP address
+
+NIC name
+
+Network details
+
+
